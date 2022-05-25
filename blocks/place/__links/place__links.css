@@ -1,0 +1,14 @@
+.place__links {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  grid-template-rows: links;
+}
+
+
+@media screen and (max-width: 767px) {
+  .place__links{
+   width: 90%;
+   margin: auto;
+  }
+ }

@@ -1,0 +1,15 @@
+.place__paragraph{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+  grid-template-areas: paragraph;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph{
+   width: 90%;
+   margin: auto;
+  }
+ }
