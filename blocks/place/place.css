@@ -18,3 +18,27 @@
     column-gap: 32px;
  }}
 
+ .place:not(first-child){
+  margin-top: 80px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .place:not(first-child){
+      margin-top: 73px;
+      }
+   }
+
+   @media screen and (max-width: 320px) {
+    .place:not(first-child){
+      margin-top: 50px;
+      }
+   }
+
+  @media screen and (max-width: 520px) {
+    .place{
+      width: 100%;
+
+    }
+   }
+
+
