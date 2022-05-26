@@ -6,6 +6,8 @@
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 
 

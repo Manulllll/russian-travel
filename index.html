@@ -20,8 +20,8 @@
             class="header__logo"
           />
           <div class="header__lang-link-container">
-            <p class="header__lang-link">Ru</p>
-            <p class="header__lang-link">En</p>
+            <p class="header__lang-link header__lang-link_hover">Ru</p>
+            <p class="header__lang-link header__lang-link_hover">En</p>
           </div>
         </div>
       </header>
@@ -54,11 +54,19 @@
               достойные вашего отпуска.
             </p>
             <ul class="intro__list">
-              <li>Часовых поясов 11</li>
-              <li>Объектов природного наследия ЮНЕСКО 12</li>
-              <li>Объектов культурного наследия ЮНЕСКО 16</li>
-              <li>Природных заповедников 105</li>
-              <li>Аэропортов 241</li>
+              <li>Часовых поясов <span class="intro__list-item">11</span></li>
+              <li>
+                Объектов природного наследия ЮНЕСКО
+                <span class="intro__list-item">12</span>
+              </li>
+              <li>
+                Объектов культурного наследия ЮНЕСКО
+                <span class="intro__list-item">16</span>
+              </li>
+              <li>
+                Природных заповедников <span class="intro__list-item">105</span>
+              </li>
+              <li>Аэропортов <span class="intro__list-item">241</span></li>
             </ul>
           </div>
         </section>
@@ -134,7 +142,11 @@
               <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
             </div>
             <div class="place__image-container">
-              <div class="place__image place__image_pic_kosa"></div>
+              <img
+                src="images/place-kosa.jpg"
+                alt="Национальный парк Куршская Коса"
+                class="place__image"
+              />
             </div>
             <div>
               <p class="place__paragraph">
@@ -159,12 +171,18 @@
             <h2 class="place__title">Кольский</h2>
             <div class="place__links">
               <p class="place__url-heading">URL</p>
-              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link"
+              <a
+                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                class="place__link"
                 >National Geographic</a
               >
             </div>
             <div class="place__image-container">
-              <div class="place__image place__image_pic_kolsky"></div>
+              <img
+                src="images/place-kolsky.jpg"
+                alt="Кольский полуостров"
+                class="place__image"
+              />
             </div>
             <div>
               <p class="place__paragraph">
@@ -189,10 +207,18 @@
             <h2 class="place__title">Алтай</h2>
             <div class="place__links">
               <p class="place__url-heading">URL</p>
-              <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
+              <a
+                href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                class="place__link place__link_hover"
+                >Facebook</a
+              >
             </div>
             <div class="place__image-container">
-              <div class="place__image place__image_pic_altai"></div>
+              <img
+                src="images/place-altai.jpg"
+                alt="Алтай"
+                class="place__image"
+              />
             </div>
             <div>
               <p class="place__paragraph">
@@ -217,12 +243,18 @@
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__links">
               <p class="place__url-heading">URL</p>
-              <a href="https://vk.com/baikalmile" class="place__link"
+              <a
+                href="https://vk.com/baikalmile"
+                class="place__link place__link_hover"
                 >https://vk.com/baikalmile</a
               >
             </div>
             <div class="place__image-container">
-              <div class="place__image place__image_pic_winter-baikal"></div>
+              <img
+                src="images/place-winter-baikal.jpg"
+                alt="Зимний Байкал"
+                class="place__image"
+              />
             </div>
             <div>
               <p class="place__paragraph">
@@ -246,12 +278,18 @@
             <h2 class="place__title">Карелия</h2>
             <div class="place__links">
               <p class="place__url-heading">URL</p>
-              <a href="http://vodlozero.ru" class="place__link"
+              <a
+                href="http://vodlozero.ru"
+                class="place__link place__link_hover"
                 >http://vodlozero.ru/</a
               >
             </div>
             <div class="place__image-container">
-              <div class="place__image place__image_pic_karelia"></div>
+              <img
+                src="images/place-karelia.jpg"
+                alt="Карелия"
+                class="place__image"
+              />
             </div>
             <div>
               <p class="place__paragraph">
@@ -288,23 +326,37 @@
         <nav class="footer__container">
           <ul class="footer__links">
             <li>
-              <a class="footer__link" href="https://yandex.ru/maps">карты</a>
+              <a
+                class="footer__link footer__link_hover"
+                href="https://yandex.ru/maps"
+                >карты</a
+              >
             </li>
             <li>
-              <a class="footer__link" href="https://yandex.ru/pogoda">погода</a>
+              <a
+                class="footer__link footer__link_hover"
+                href="https://yandex.ru/pogoda"
+                >погода</a
+              >
             </li>
             <li>
-              <a class="footer__link" href="https://rasp.yandex.ru"
+              <a
+                class="footer__link footer__link_hover"
+                href="https://rasp.yandex.ru"
                 >расписание</a
               >
             </li>
             <li>
-              <a class="footer__link" href="https://calendar.yandex.ru"
+              <a
+                class="footer__link footer__link_hover"
+                href="https://calendar.yandex.ru"
                 >календарь</a
               >
             </li>
             <li>
-              <a class="footer__link" href="https://travel.yandex.ru"
+              <a
+                class="footer__link footer__link_hover"
+                href="https://travel.yandex.ru"
                 >путешествия</a
               >
             </li>
