@@ -5,16 +5,25 @@
   text-align: center;
   color: #ffffff;
   max-width: 360px;
-  z-index: 2;
+  z-index: 3;
   margin: auto;
-  padding-bottom: 19vw;
+  min-height: 24vw;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 1281px) {
   .cover__subtitle {
+    min-height: 311px;
+  }
+}
 
-    padding-bottom: 15vw;
-
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    min-height: 24vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    min-height: 23vw;
   }
 }
 
@@ -22,7 +31,8 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    padding-bottom: 10vw;
     max-width: 265px;
+    min-height: 22vw;
+    margin: 0 auto 0;
   }
 }

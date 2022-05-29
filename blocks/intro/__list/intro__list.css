@@ -10,4 +10,9 @@
   flex-direction: column;
 }
 
-
+@media screen and (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+    margin-left: 16px;
+  }
+}
