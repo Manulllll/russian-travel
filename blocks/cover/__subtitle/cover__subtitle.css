@@ -6,25 +6,8 @@
   color: #ffffff;
   max-width: 360px;
   z-index: 3;
-  margin: auto;
-  min-height: 24vw;
-}
-
-@media screen and (min-width: 1281px) {
-  .cover__subtitle {
-    min-height: 311px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    min-height: 24vw;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    min-height: 23vw;
-  }
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -32,7 +15,6 @@
     font-size: 14px;
     line-height: 16px;
     max-width: 265px;
-    min-height: 22vw;
     margin: 0 auto 0;
   }
 }

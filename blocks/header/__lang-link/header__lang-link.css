@@ -4,13 +4,8 @@
   line-height: 28px;
   color: #ffffff;
   margin: 0;
-
   text-decoration: none;
   color: #ffffff;
-}
-
-.header__lang-link:first-child {
-  margin-right: 18px;
 }
 
 @media screen and (max-width: 767px) {
